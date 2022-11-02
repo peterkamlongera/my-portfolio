@@ -5,143 +5,169 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Peter Kamlongera</title>
-        <link rel="icon" type="image/png" href="https://www.google.com/s2/favicons?domain=fastfluencyafrica.com">
+        <link rel="icon" type="image/png" href="favicon.png">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
         <link rel="stylesheet" href="css/style.css">
         <link href="https://fonts.googleapis.com/css2?family=Barlow&family=Raleway&display=swap" rel="stylesheet"> 
     </head>
 <body class="">
-    <nav class="flex flex-col justify-center items-center bg-color-2">
-        <div class="text-sm sm:text-sm md:text-md lg:text-lg xl:text-xl 2xl:text-2xl font-display uppercase text-white mt-4">
-            Peter Kamlongera
+    <nav class="flex flex-col justify-center items-center bg-color-2 fixed z-10 w-full p-2">
+        <div class="text-3xl font-display uppercase text-white mt-4">
+           <a href="#">Peter Kamlongera</a>
         </div>
-        <ul class="flex flex-row text-lg font-body text-white">
-            <li class="px-2 font-body">about</li>
-            <li class="px-2 font-body">work</li>
-            <li class="px-2 font-body">articles</li>
-            <li class="px-2 font-body">contact</li>
+        <ul class="flex flex-row justify-around font-body text-white">
+            <li><a href="/src/html/about.html" class="px-6 font-body"><span class="hover:border-b-2 hover:text-color-4 text-2xl">about</span></a></li> 
+            <li><a href="/src/html/work.html" class="px-6 font-body"><span class="hover:border-b-2 hover:text-color-4 text-2xl">work</span></a></li> 
+            <li><a href="/src/html/articles.html" class="px-6 font-body"><span class="hover:border-b-2 hover:text-color-4 text-2xl">articles</span> </span></a></li> 
+            <!-- <li><a href="/src/html/contact.html" class="px-2 font-body"><span class="hover:border-b-2 hover:text-color-4 text-xl">contact</span></a></li>  -->
         </ul>
     </nav>
     <!-- Hero Section -->
-    <section class="flex flex-col justify-center items-center  h-full bg-pattern-1">
-        <h1 class="text-md sm:text-md md:text-lg lg:text-xl xl:text-sm sm:text-sm md:text-md lg:text-lg xl:text-xl 2xl:text-2xl 2xl:text-3xl text-center text-white font-display m-5">
-            African edutainer, front-end developer, lawyer, & digital itinerant
-        </h1>
-        <div>
-            <p class="text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl text-center text-white font-body m-5 uppercase underline">Holla @ me</p>
-            <ul class="flex flex-row text-white font-body m-5">
-                <a href="https://www.linkedin.com/in/peterkamlongera" target="_blank"><li><i class="fa-brands fa-linkedin-in px-2 text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li></a>
-                <a href="mailto:peterkamlongera@gmail.com"><li><i class="fa-regular fa-envelope px-2 text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl" target="_blank"></i></li></a>
-                <a href="https://wa.me/27685187582?text=Hello%20I%20would%20like%20to%20book%20a%20consultation%20with%20you"><li><i class="fa-brands fa-whatsapp px-2 text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl" target="_blank"></i></li></a>
-                <a href="https://github.com/peterkamlongera"><li><i class="fa-brands fa-github px-2 text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl" target="_blank"></i></li></a>
-                <a href="https://drive.google.com/uc?export=download&id=1B7DKpcoFRMwJvaHkaC2i6y6jb_M3c5Wj" target="_blank"><li><i class="fa-regular fa-file-lines px-2 text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl" target="_blank"></i></li></a>
-            </ul>
+    <section class="flex flex-col justify-center items-center  min-h-screen bg-pattern-1">
+        <div class="bg-color-2 flex flex-col justify-between items-center h-full">
+            <h1 class="text-5xl text-center text-white font-display m-2 p-4 drop-shadow-2xl">
+                African edutainer, front-end developer, lawyer, & digital itinerant
+            </h1>
+            <div>
+                <p class="text-3xl text-center text-white font-body m-5 uppercase drop-shadow-2xl cursor-pointer"><span class="hover:border-b-2 hover:text-color-4">Holla @ me</span></p>
+                <ul class="flex flex-row text-white font-body m-5">
+                    <a href="https://www.linkedin.com/in/peterkamlongera" target="_blank"><li><i class="fa-brands fa-linkedin-in px-2 text-3xl drop-shadow-2xl hover:text-color-4"></i></li></a>
+                    <a href="mailto:peterkamlongera@gmail.com"><li><i class="fa-regular fa-envelope px-2 text-3xl drop-shadow-3xl hover:text-color-4" target="_blank"></i></li></a>
+                    <a href="https://wa.me/27685187582?text=Hello%20I%20would%20like%20to%20book%20a%20consultation%20with%20you"><li><i class="fa-brands fa-whatsapp px-2 text-3xl drop-shadow-2xl hover:text-color-4" target="_blank"></i></li></a>
+                    <a href="https://github.com/peterkamlongera"><li><i class="fa-brands fa-github px-2 text-3xl drop-shadow-2xl hover:text-color-4" target="_blank"></i></li></a>
+                    <a href="https://drive.google.com/uc?export=download&id=1B7DKpcoFRMwJvaHkaC2i6y6jb_M3c5Wj" target="_blank"><li><i class="fa-regular fa-file-lines px-2 text-3xl drop-shadow-2xl hover:text-color-4" target="_blank"></i></li></a>
+                </ul>
+            </div>
         </div>
     </section>
     <!-- Work Section -->
-    <section class="mt-4 ">
-        <h2 class="font-display text-sm sm:text-sm md:text-md lg:text-lg xl:text-xl 2xl:text-2xl text-left w-full px-5">01. work</h2>
-        <div class="px-5">
-            <div class="bg-color-2 h-full rounded-t-xl">
-                <div class="flex flex-row justify-between text-white p-2 rounded-t-lg">
-                    <span>01.1</span>
-                    <span class="">
-                        <ul class="flex flex-row text-white">
-                            <li><i class="fa-brands fa-figma px-1 text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
-                            <li><i class="fa-brands fa-html5 px-1 text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
-                            <li><i class="fa-brands fa-css3-alt px-1 text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
-                        </ul>
-                    </span>
+    <section class="mt-4 mx-auto px-6 flex flex-col justify-center items-center">
+        <h2 class="font-display text-3xl text-left w-full font-bold px-5">01. work</h2>
+        <div class="flex flex-row flex-wrap justify-center items-center mx-auto px-6">
+            <!-- <div class="px-6 mt-4 min-w-min">
+                <div class="bg-color-2 rounded-t-xl">
+                    <div class="flex flex-row justify-between text-white p-2 rounded-t-lg">
+                        <span>01.1</span>
+                        <span class="">
+                            <ul class="flex flex-row text-white">
+                                <li><i class="fa-brands fa-figma px-1 sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
+                                <li><i class="fa-brands fa-html5 px-1 sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
+                                <li><i class="fa-brands fa-css3-alt px-1 sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
+                            </ul>
+                        </span>
+                    </div>
+                    <img src="./assets/imgs/card-background-1.png" class="w-full" alt="">
                 </div>
-                <img src="./assets/imgs/card-background-1.png" class="" alt="">
-            </div>
-            <div class="border border-black rounded-b-lg p-4">
-                <h3 class="text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl">Peter Kamlongera Portfolio</h3>
-                <p class="text-ms sm:text-ms md:text-xs lg:text-sm xl:text-md 2xl:text-lg">Personal portfolio showcasing work history</p>
-            </div>
-        </div>
-        <div class="px-5 mt-4">
-            <div class="bg-color-2 h-full rounded-t-xl">
-                <div class="flex flex-row justify-between text-white p-2 rounded-t-lg">
-                    <span>01.2</span>
-                    <span class="">
-                        <ul class="flex flex-row text-white">
-                            <li><i class="fa-brands fa-figma px-1 text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
-                            <li><i class="fa-brands fa-html5 px-1 text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
-                            <li><i class="fa-brands fa-css3-alt px-1 text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
-                        </ul>
-                    </span>
+                <div class="border border-black rounded-b-lg p-4">
+                    <h3 class="text-xl font-bold">Portfolio</h3>
+                    <p class="text-lg font-light">A showcase of my personal work history</p>
                 </div>
-                <img src="./assets/imgs/card-background-1.png" class="" alt="">
-            </div>
-            <div class="border border-black rounded-b-lg p-4">
-                <h3 class="text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl">Canvas Mobile Rebrand App</h3>
-                <p class="text-ms sm:text-ms md:text-xs lg:text-sm xl:text-md 2xl:text-lg">Mobile first learning management system UI</p>
-            </div>
-        </div>
-        <div class="px-5 mt-4">
-            <div class="bg-color-2 h-full rounded-t-xl">
-                <div class="flex flex-row justify-between text-white p-2 rounded-t-lg">
-                    <span>01.3</span>
-                    <span class="">
-                        <ul class="flex flex-row text-white">
-                            <li><i class="fa-brands fa-figma px-1 text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
-                            <li><i class="fa-brands fa-html5 px-1 text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
-                            <li><i class="fa-brands fa-css3-alt px-1 text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
-                        </ul>
-                    </span>
+            </div> -->
+            <div class="px-6 mt-4 min-w-min drop-shadow-2xl">
+                <div class="bg-color-2 bg-pattern-1 rounded-t-xl">
+                    <div class="flex flex-row justify-between text-white p-2 rounded-t-lg">
+                        <span>01.1</span>
+                        <span class="">
+                            <ul class="flex flex-row text-white">
+                                <li><i class="fa-brands fa-figma px-1 sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
+                                <li><i class="fa-brands fa-html5 px-1 sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
+                                <li><i class="fa-brands fa-css3-alt px-1 sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
+                            </ul>
+                        </span>
+                    </div>
+                    <img src="./assets/imgs/card-background-1.png" class="w-full" alt="">
                 </div>
-                <img src="./assets/imgs/card-background-1.png" class="" alt="">
-            </div>
-            <div class="border border-black rounded-b-lg p-4">
-                <h3 class="text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl">UI Component Library</h3>
-                <p class="text-ms sm:text-ms md:text-xs lg:text-sm xl:text-md 2xl:text-lg">React.js & TailwindCSS Component library</p>
-            </div>
-        </div>
-        <div class="px-5 mt-4">
-            <div class="bg-color-2 h-full rounded-t-xl">
-                <div class="flex flex-row justify-between text-white p-2 rounded-t-lg">
-                    <span>01.4</span>
-                    <span class="">
-                        <ul class="flex flex-row text-white">
-                            <li><i class="fa-brands fa-figma px-1 text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
-                            <li><i class="fa-brands fa-html5 px-1 text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
-                            <li><i class="fa-brands fa-css3-alt px-1 text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
-                        </ul>
-                    </span>
+                <div class="border border-black rounded-b-lg p-4">
+                    <h3 class="text-xl font-bold">Canvas Mobile Rebrand App</h3>
+                    <p class="text-lg font-light">Mobile 1st learning management system</p>
                 </div>
-                <img src="./assets/imgs/card-background-1.png" class="" alt="">
             </div>
-            <div class="border border-black rounded-b-lg p-4">
-                <h3 class="text-xs sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl">Fast Fluency Africa</h3>
-                <p class="text-ms sm:text-ms md:text-xs lg:text-sm xl:text-md 2xl:text-lg">African edutainment e-learning solution</p>
+            <div class="px-6 mt-4 min-w-min drop-shadow-2xl">
+                <div class="bg-color-2 bg-pattern-1 rounded-t-xl">
+                    <div class="flex flex-row justify-between text-white p-2 rounded-t-lg">
+                        <span>01.2</span>
+                        <span class="">
+                            <ul class="flex flex-row text-white">
+                                <li><i class="fa-brands fa-figma px-1 sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
+                                <li><i class="fa-brands fa-html5 px-1 sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
+                                <li><i class="fa-brands fa-css3-alt px-1 sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
+                            </ul>
+                        </span>
+                    </div>
+                    <img src="./assets/imgs/card-background-1.png" class="w-full bg-pattern-1" alt="">
+                </div>
+                <div class="border border-black rounded-b-lg p-4">
+                    <h3 class="text-xl font-bold">UI Component Library</h3>
+                    <p class="text-lg font-light">React.js/TailwindCSS component library</p>
+                </div>
+            </div>
+            <div class="px-6 mt-4 min-w-min drop-shadow-2xl">
+                <div class="bg-color-2 bg-pattern-1 rounded-t-xl">
+                    <div class="flex flex-row justify-between text-white p-2 rounded-t-lg">
+                        <span>01.3</span>
+                        <span class="">
+                            <ul class="flex flex-row text-white">
+                                <li><i class="fa-brands fa-figma px-1 sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
+                                <li><i class="fa-brands fa-html5 px-1 sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
+                                <li><i class="fa-brands fa-css3-alt px-1 sm:text-xs md:text-sm lg:text-md xl:text-lg 2xl:text-xl"></i></li>
+                            </ul>
+                        </span>
+                    </div>
+                    <img src="./assets/imgs/card-background-1.png" class="w-full" alt="">
+                </div>
+                <div class="border border-black rounded-b-lg p-4">
+                    <h3 class="text-xl font-bold">Fast Fluency Africa</h3>
+                    <p class="text-lg font-light">African edutainment e-learning solution</p>
+                </div>
             </div>
         </div>
     </section>
     <!-- Articles -->
-    <section class="mt-4">
-        <h2 class="font-display text-sm sm:text-sm md:text-md lg:text-lg xl:text-xl 2xl:text-2xl text-left w-full px-5">02. articles</h2>
+    <section class="mt-4 px-6 mx-auto flex flex-col justify-center items-center">
+        <h2 class="font-display text-3xl font-bold text-left w-full px-5">02. articles</h2>
         <div class="px-5 mt-4">
-            <h3><span class="px-2">02.1</span><span>13 Lessons from 13 Months of Struggle</span></h3>
+            <h3> <a href="#"><span class="font-regular text-lg hover:text-color-2 hover:border-b-2"><span class="hover:text-color-2 text-lg font-semibold">02.1</span> 13 Lessons + 13 Months of Struggle</span></a></h3>
+            <p class=" font-light text-md text-justify">In this article I discuss 13 key insights gained from designing and developing the Fast Fluency Africa MVP and inadvertendly learning how to code in the process.</p>
+            <p class="text-right font-display font-bold">10.27.2022</p>
+        </div>
+        <div class="px-5 mt-4">
+            <h3> <a href="#"><span class="font-regular text-lg hover:text-color-2 hover:border-b-2"><span class="hover:text-color-2 text-lg font-semibold">02.2</span> Why Learning isiZulu Is So Hard</span></a></h3>
+            <p class=" font-light text-md text-justify">In this article I discuss 13 key insights gained from designing and developing the Fast Fluency Africa MVP and inadvertendly learning how to code in the process.</p>
+            <p class="text-right font-display font-bold">8.18.2022</p>
+        </div>
+        <div class="px-5 mt-4">
+            <h3> <a href="#"><span class="font-regular text-lg hover:text-color-2 hover:border-b-2"><span class="hover:text-color-2 text-lg font-semibold">02.3</span> On the Importance of Adding Value</span></a></h3>
+            <p class=" font-light text-md text-justify">In this article I discuss 13 key insights gained from designing and developing the Fast Fluency Africa MVP and inadvertendly learning how to code in the process.</p>
+            <p class="text-right font-display font-bold">8.19.2019</p>
+        </div>
+        <div class="px-5 mt-4">
+            <h3> <a href="#"><span class="font-regular text-lg hover:text-color-2 hover:border-b-2"><span class="hover:text-color-2 text-lg font-semibold">02.4</span> Making a Good Business Idea GREAT</span></a></h3>
+            <p class=" font-light text-md text-justify">In this article I discuss 13 key insights gained from designing and developing the Fast Fluency Africa MVP and inadvertendly learning how to code in the process.</p>
+            <p class="text-right font-display font-bold">4.17.2018</p>
+        </div>
+        <div class="px-5 mt-4">
+            <h3> <a href="#"><span class="font-regular text-lg hover:text-color-2 hover:border-b-2"><span class="hover:text-color-2 text-lg font-semibold">02.5</span> Don't Be A Pseudopreneur</span></a></h3>
+            <p class=" font-light text-md text-justify">In this article I discuss 13 key insights gained from designing and developing the Fast Fluency Africa MVP and inadvertendly learning how to code in the process.</p>
+            <p class="text-right font-display font-bold">7.27.2017</p>
         </div>
     </section>
     <section class="mt-4">
         <footer>
             <div class="bg-color-2 flex flex-col justify-center items-center">
-                <ul class="flex flex-col items-center text-white font-body mt-4">
+                <!-- <ul class="flex flex-col items-center text-white font-body mt-4">
                     <li class="px-2 ">work</li>
                     <li class="px-2 ">about</li>
                     <li class="px-2 ">articles</li>
                     <li class="px-2 ">contact</li>
+                </ul> -->
+                <ul class="flex flex-row text-white font-body mt-4">
+                    <a href="https://www.linkedin.com/in/peterkamlongera" target="_blank"><li><i class="fa-brands fa-linkedin-in px-2 text-2xl drop-shadow-2xl hover:text-color-4"></i></li></a>
+                    <a href="mailto:peterkamlongera@gmail.com"><li><i class="fa-regular fa-envelope px-2 text-2xl drop-shadow-2xl hover:text-color-4" target="_blank"></i></li></a>
+                    <a href="https://wa.me/27685187582?text=Hello%20I%20would%20like%20to%20book%20a%20consultation%20with%20you"><li><i class="fa-brands fa-whatsapp px-2 text-2xl drop-shadow-2xl hover:text-color-4" target="_blank"></i></li></a>
+                    <a href="https://github.com/peterkamlongera"><li><i class="fa-brands fa-github px-2 text-2xl drop-shadow-2xl hover:text-color-4" target="_blank"></i></li></a>
+                    <a href="https://drive.google.com/uc?export=download&id=1B7DKpcoFRMwJvaHkaC2i6y6jb_M3c5Wj" target="_blank"><li><i class="fa-regular fa-file-lines px-2 text-2xl drop-shadow-2xl hover:text-color-4" target="_blank"></i></li></a>
                 </ul>
-                <ul class="flex flex-row text-white font-body m-2">
-                    <a href="https://www.linkedin.com/in/peterkamlongera" target="_blank"><li><i class="fa-brands fa-linkedin-in px-2"></i></li></a>
-                    <a href="mailto:peterkamlongera@gmail.com"><li><i class="fa-regular fa-envelope px-2" target="_blank"></i></li></a>
-                    <a href="https://wa.me/27685187582?text=Hello%20I%20would%20like%20to%20book%20a%20consultation%20with%20you"><li><i class="fa-brands fa-whatsapp px-2" target="_blank"></i></li></a>
-                    <a href="https://github.com/peterkamlongera"><li><i class="fa-brands fa-github px-2" target="_blank"></i></li></a>
-                    <a href="https://drive.google.com/uc?export=download&id=1B7DKpcoFRMwJvaHkaC2i6y6jb_M3c5Wj" target="_blank"><li><i class="fa-regular fa-file-lines px-2" target="_blank"></i></li></a>
-                </ul>
-                <span class="text-white text-ms font-body"> © Peter Kamlongera 2022</span>
+                <span class="text-white text-ms font-body pb-2"> © Peter Kamlongera 2022</span>
             </div>
         </footer>
     </section>
